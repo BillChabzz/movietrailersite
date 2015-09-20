@@ -7,8 +7,34 @@
 html,
 body {
     height: 100%;
+    position: relative;
 }
+#overlay{
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+}
+#overlay ul{
 
+    list-style: none;
+
+
+}
+#overlay ul,li{
+
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+
+
+}
+#overlay ul,li,a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.5em;
+    font-family: over-the-rainbow;
+
+}
 .carousel,
 .item,
 .active {
