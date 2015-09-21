@@ -10,6 +10,7 @@ body {
     position: relative;
 }
 #overlay{
+    display: block;
     z-index: 1;
     position: absolute;
     left: 25%;
@@ -30,10 +31,18 @@ body {
 }
 #overlay ul,li,a{
     text-decoration: none;
-    color: red;
+    color: #c50404;
     font-size: 1.5em;
     font-family: over-the-rainbow;
 
+}
+#trailer{
+    margin 0;
+    padding: 0;
+}
+iframe{
+    margin-top: 100px;
+    width: 100%;
 }
 .carousel,
 .item,
